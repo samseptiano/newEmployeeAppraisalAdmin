@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_Home"
+            android:icon="@drawable/ic_home_24dp"
+            android:title="Dashboard" />
+        <item
+            android:id="@+id/nav_setting_form"
+            android:icon="@drawable/ic_book_black_24dp"
+            android:title="Input Form Penilaian" />
+        <item
+            android:id="@+id/nav_setting_workflow"
+            android:icon="@drawable/ic_menu_gallery"
+            android:title="Setting Workflow" />
+        <item
+            android:id="@+id/nav_input"
+            android:icon="@drawable/ic_verified_user_24dp"
+            android:title="Input Data Karyawan" />
+
+    </group>
+
+    <item android:title="Advance">
+        <menu>
+            <item
+                android:id="@+id/nav_set_reminder"
+                android:icon="@drawable/ic_menu_share"
+                android:title="Setting Reminder" />
+        </menu>
+    </item>
+
+</menu>

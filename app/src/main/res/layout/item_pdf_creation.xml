@@ -1,0 +1,165 @@
+<ScrollView android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/scroll">
+<LinearLayout android:orientation="vertical"
+    android:paddingTop="30dp"
+    android:layout_marginLeft="15dp"
+    android:layout_marginRight="15dp"
+    android:layout_marginBottom="60dp"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+<TextView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text="nama karyawan"
+    android:textColor="@color/colorAccent"
+    android:textStyle="bold" />
+
+<TextView
+android:id="@+id/tvEmpName"
+android:layout_width="match_parent"
+android:layout_height="wrap_content"
+android:text="name"
+android:textColor="#000"
+android:textSize="22sp" />
+
+<View
+android:layout_width="match_parent"
+android:layout_height="1dp"
+android:layout_gravity="center"
+android:layout_marginTop="15dp"
+android:layout_marginBottom="15dp"
+android:background="#000" />
+<TextView
+android:layout_width="match_parent"
+android:layout_height="wrap_content"
+android:text="username"
+android:textColor="@color/colorAccent"
+android:textStyle="bold" />
+
+<TextView
+android:id="@+id/tvUsername"
+android:layout_width="match_parent"
+android:layout_height="wrap_content"
+android:text="username"
+android:textColor="#000"
+android:textSize="24sp" />
+
+<View
+android:layout_width="match_parent"
+android:layout_height="1dp"
+android:layout_gravity="center"
+android:layout_marginTop="15dp"
+android:layout_marginBottom="15dp"
+android:background="#000" />
+
+<TextView
+android:layout_width="match_parent"
+android:layout_height="wrap_content"
+android:text="NIK"
+android:textColor="@color/colorAccent"
+android:textStyle="bold" />
+
+<TextView
+android:id="@+id/tvNik"
+android:layout_width="match_parent"
+android:layout_height="wrap_content"
+android:text="NIK"
+android:textColor="#000"
+android:textSize="24sp" />
+
+<View
+android:layout_width="match_parent"
+android:layout_height="1dp"
+android:layout_gravity="center"
+android:layout_marginTop="15dp"
+android:layout_marginBottom="15dp"
+android:background="#000" />
+
+<TextView
+android:layout_width="match_parent"
+android:layout_height="wrap_content"
+android:text="email"
+android:textColor="@color/colorAccent"
+android:textStyle="bold" />
+
+<TextView
+android:id="@+id/tvEmail"
+android:layout_width="match_parent"
+android:layout_height="wrap_content"
+android:text="email"
+android:textColor="#000"
+android:textSize="22sp" />
+
+<View
+android:layout_width="match_parent"
+android:layout_height="1dp"
+android:layout_gravity="center"
+android:layout_marginTop="15dp"
+android:layout_marginBottom="15dp"
+android:background="#000" />
+
+<TextView
+android:layout_width="match_parent"
+android:layout_height="wrap_content"
+android:text="job title name"
+android:textColor="@color/colorAccent"
+android:textStyle="bold" />
+
+<TextView
+android:id="@+id/tvJobTitleName"
+android:layout_width="match_parent"
+android:layout_height="wrap_content"
+android:textColor="#000"
+android:text="HRIS Officer"
+android:textSize="24sp" />
+<View
+android:layout_width="match_parent"
+android:layout_height="1dp"
+android:layout_gravity="center"
+android:layout_marginTop="15dp"
+android:layout_marginBottom="15dp"
+android:background="#000" />
+
+<TextView
+android:layout_width="match_parent"
+android:layout_height="wrap_content"
+android:text="department"
+android:textColor="@color/colorAccent"
+android:textStyle="bold" />
+
+<TextView
+android:id="@+id/tvDepartment"
+android:layout_width="match_parent"
+android:textColor="#000"
+android:layout_height="wrap_content"
+android:text="HRD"
+android:textSize="24sp" />
+<View
+android:layout_width="match_parent"
+android:layout_height="1dp"
+android:layout_gravity="center"
+android:layout_marginTop="15dp"
+android:layout_marginBottom="15dp"
+android:background="#000" />
+
+<TextView
+android:layout_width="match_parent"
+android:layout_height="wrap_content"
+android:text="organization name"
+android:textColor="@color/colorAccent"
+android:textStyle="bold" />
+
+<TextView
+android:id="@+id/tvcompanyName"
+android:layout_width="match_parent"
+android:textColor="#000"
+android:layout_height="wrap_content"
+android:text="EPM-PUSAT"
+android:textSize="24sp" />
+
+    </LinearLayout>
+</ScrollView>
